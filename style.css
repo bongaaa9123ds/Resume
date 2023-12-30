@@ -25,11 +25,13 @@ h3 {
 
 
 
-    main { 
-        display: grid;
-        grid-template-columns: 40% 60%;
-        margin-top: 3em;
-    }
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;   /*creates 2 columns*/
+    margin-top: 3em;
+}
+
 
 
     header {
@@ -61,6 +63,6 @@ h3 {
     }
     
     
-#mainLeft {
-    border-right: 1px solid lightgray;
-}
+    #mainLeft {
+        border-right: 1px solid lightgray; /* in this solid is the style which could be dashed, dotted etc etc */
+    
